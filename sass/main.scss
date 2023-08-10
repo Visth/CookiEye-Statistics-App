@@ -28,8 +28,9 @@ body {
 }
 
 .panel {
+    position: absolute;
     width: 1600px;
-    height: 1000px;
+    height: 800px;
     border: 1px solid #4b5769;
     border-radius: 15px;
     overflow: hidden;
@@ -39,6 +40,57 @@ body {
         flex-direction: column;
         justify-content: center;
         background-color: var(--leftPanelColor);
+
+        .date-box {
+            margin-top: 40px;
+            margin-bottom: 30px;
+
+            .day {
+                font-size: 1.8rem;
+                font-weight: bold;
+            }
+
+            .time {
+                font-size: 5.2rem;
+                font-weight: bold;
+            }
+
+            .date {
+                font-size: 1.6rem;
+            }
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 500px;
+
+
+            a {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                width: 100%;
+                height: 30%;
+                border: 1px solid #fff;
+                border-radius: 20px;
+                font-weight: bold;
+                text-transform: uppercase;
+                color: #fff;
+                text-decoration: none;
+            }
+
+            &-item {
+                font-size: 2.2rem;
+                margin-bottom: 0.2rem;
+
+                i {
+                    font-size: 5rem;
+                }
+            }
+        }
     }
 
     &-right{
