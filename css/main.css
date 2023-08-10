@@ -6,4 +6,40 @@
 
 :root {
   font-size: 62.5%;
+  --backgroundOfWebsite: #181D23;
+  --leftPanelColor: #4B5769;
+  --rightPanelColor: linear-gradient(180deg, rgba(55, 64, 76, 1) 0%, rgba(21, 26, 32, 1) 100%);
+  --activeColor: rgba(255, 255, 255, .2);
+  --hoverColor: linear-gradient(160deg, rgba(0, 110, 255, .25) 0%, rgba(9, 255, 0, 0.25) 100%);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-width: 1600px;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--backgroundOfWebsite);
+}
+
+.active {
+  background-color: var(--activeColor);
+}
+
+.panel {
+  width: 1600px;
+  height: 1000px;
+  border: 1px solid #4b5769;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.panel-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--leftPanelColor);
+}
+.panel-right {
+  background-image: var(--rightPanelColor);
 }/*# sourceMappingURL=main.css.map */
