@@ -1,10 +1,10 @@
 var options = {
     series: [{
-    name: 'Użytkownicy w ciągu dnia',
-    data: [31, 40, 28, 51, 42, 109, 100]
+    name: 'Aktywni użytkownicy',
+    data: [88, 40, 28, 51, 102, 109, 70]
   }, {
-    name: 'Użytkownicy w nocy',
-    data: [11, 32, 45, 32, 34, 52, 41]
+    name: 'Wystawiane posty',
+    data: [22, 32, 45, 32, 34, 32, 41]
   }],
     chart: {
     height: 250,
