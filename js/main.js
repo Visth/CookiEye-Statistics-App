@@ -8,7 +8,8 @@ var options = {
   }],
     chart: {
     height: 250,
-    type: 'area'
+    type: 'area',
+    foreColor: '#fff'
   },
   dataLabels: {
     enabled: false
