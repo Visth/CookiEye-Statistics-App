@@ -10,7 +10,7 @@
     --leftPanelColor: #4B5769;
     --rightPanelColor: linear-gradient(180deg, rgba(55, 64, 76, 1) 0%, rgba(21, 26, 32, 1) 100%);
     --activeColor: rgba(255, 255, 255, .2);
-    --hoverColor: linear-gradient(160deg, rgba(0, 110, 255, .25) 0%, rgba(9, 255, 0, 0.25) 100%);
+    --hoverLeftPanelColor: linear-gradient(160deg, rgba(0, 110, 255, .25) 0%, rgba(9, 255, 0, 0.25) 100%);
 }
 
 body {
@@ -88,7 +88,7 @@ body {
 
             a:hover {
                 background-color: transparent;
-                background-image: var(--hoverColor);
+                background-image: var(--hoverLeftPanelColor);
             }
 
             &-item {
@@ -114,5 +114,39 @@ body {
 
     &-right{
         background-image: var(--rightPanelColor);
+
+        .main-stats-title {
+            margin-top: 20px;
+            margin-left: 50px;
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .stats {
+            width: 100%;
+            color: #fff;
+            margin-left: 40px;
+
+            &-item {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 400px;
+                height: 130px;
+                margin: 30px 10px;
+                padding-bottom: 15px;
+                font-size: 1.2rem;
+                border: 1px solid #fff;
+                border-radius: 15px;
+
+                &__title {
+                    font-size: 2.2rem;
+                    margin-top: 20px;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }
+            }
+        }
     }
 }

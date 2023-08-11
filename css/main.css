@@ -10,7 +10,7 @@
   --leftPanelColor: #4B5769;
   --rightPanelColor: linear-gradient(180deg, rgba(55, 64, 76, 1) 0%, rgba(21, 26, 32, 1) 100%);
   --activeColor: rgba(255, 255, 255, .2);
-  --hoverColor: linear-gradient(160deg, rgba(0, 110, 255, .25) 0%, rgba(9, 255, 0, 0.25) 100%);
+  --hoverLeftPanelColor: linear-gradient(160deg, rgba(0, 110, 255, .25) 0%, rgba(9, 255, 0, 0.25) 100%);
 }
 
 body {
@@ -82,7 +82,7 @@ body {
 }
 .panel-left .menu a:hover {
   background-color: transparent;
-  background-image: var(--hoverColor);
+  background-image: var(--hoverLeftPanelColor);
 }
 .panel-left .menu-item {
   font-size: 2.2rem;
@@ -99,4 +99,34 @@ body {
 }
 .panel-right {
   background-image: var(--rightPanelColor);
+}
+.panel-right .main-stats-title {
+  margin-top: 20px;
+  margin-left: 50px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.panel-right .stats {
+  width: 100%;
+  color: #fff;
+  margin-left: 40px;
+}
+.panel-right .stats-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400px;
+  height: 130px;
+  margin: 30px 10px;
+  padding-bottom: 15px;
+  font-size: 1.2rem;
+  border: 1px solid #fff;
+  border-radius: 15px;
+}
+.panel-right .stats-item__title {
+  font-size: 2.2rem;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */
