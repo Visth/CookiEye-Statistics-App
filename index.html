@@ -57,23 +57,26 @@
                     <div class="col-9 mt-5 text-center">
                         <h1 class="display-3 main-stats-title">główne statystki</h1>
                         
-                        <div class="row stats">
+                        <section class="row stats">
                             <div class="col stats-item">
-                                <p class="stats-item__title">postów</p>
+                                <h3 class="stats-item__title">postów</h3>
                                 <p>Łącznie: 4252921</p>
                                 <p>W tym miesiącu: 10431</p>
                             </div>
                             <div class="col stats-item">
-                                <p class="stats-item__title">tematów</p>
+                                <h3 class="stats-item__title">tematów</h3>
                                 <p>Łącznie: 121400</p>
                                 <p>W tym miesiącu: 24343</p>
                             </div>
                             <div class="col stats-item">
-                                <p class="stats-item__title">użytkowników</p>
+                                <h3 class="stats-item__title">użytkowników</h3>
                                 <p>Łącznie: 532329</p>
                                 <p>W tym miesiącu: 70233</p>
                             </div>
-                        </div>
+
+                            <div id="chart" class="py-5 text-dark"></div>
+                        </section>
+                        
                     </div>
                     <div class="col-3 p-4 text-light text-center aside"></div>
                 </div>
@@ -82,6 +85,7 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script src="/js/main.js"></script>
 </body>
 

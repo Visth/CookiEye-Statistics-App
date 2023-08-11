@@ -123,10 +123,14 @@ body {
   font-size: 1.2rem;
   border: 1px solid #fff;
   border-radius: 15px;
+  transition: background-color 0.3s;
 }
 .panel-right .stats-item__title {
   font-size: 2.2rem;
   margin-top: 20px;
   text-transform: uppercase;
   font-weight: bold;
+}
+.panel-right .stats-item:hover {
+  background-color: rgba(255, 255, 255, 0.08);
 }/*# sourceMappingURL=main.css.map */
