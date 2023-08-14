@@ -110,7 +110,7 @@ body {
 .panel-right .stats {
   width: 95%;
   color: #fff;
-  margin-left: 40px;
+  margin-left: 30px;
 }
 .panel-right .stats-item {
   display: flex;
@@ -134,15 +134,28 @@ body {
 .panel-right .stats-item:hover {
   background-color: rgba(255, 255, 255, 0.08);
 }
+.panel-right .posts {
+  margin: 10px 30px;
+}
 .panel-right .posts-heading {
   display: flex;
   justify-content: start;
   align-items: center;
   color: #fff;
-  margin-left: 60px;
+}
+.panel-right .posts-heading .sort-btn {
+  margin: 10px 0;
+  font-size: 1.4rem;
+  font-weight: bold;
 }
 .panel-right .posts-heading h3 {
   font-size: 2.2rem;
   font-weight: bold;
   letter-spacing: 1px;
+}
+.panel-right .posts thead {
+  font-size: 1.8rem;
+}
+.panel-right .posts tbody {
+  font-size: 1.2rem;
 }/*# sourceMappingURL=main.css.map */

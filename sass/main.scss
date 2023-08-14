@@ -126,7 +126,7 @@ body {
         .stats {
             width: 95%;
             color: #fff;
-            margin-left: 40px;
+            margin-left: 30px;
 
             &-item {
                 display: flex;
@@ -155,18 +155,33 @@ body {
         }
 
         .posts {
+            margin: 10px 30px;
+
             &-heading {
                 display: flex;
                 justify-content: start;
                 align-items: center;
                 color: #fff;
-                margin-left: 60px;
                 
+                .sort-btn {
+                    margin: 10px 0;
+                    font-size: 1.4rem;
+                    font-weight: bold;
+                }
+
                 h3 {
                     font-size: 2.2rem;
                     font-weight: bold;
                     letter-spacing: 1px;
                 }
+            }
+
+            thead {
+                font-size: 1.8rem;
+            }
+
+            tbody {
+                font-size: 1.2rem;
             }
         }
     }
