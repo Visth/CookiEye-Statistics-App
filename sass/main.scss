@@ -292,6 +292,10 @@ body {
         }
     }
 
+    .card-img {
+        overflow: hidden;
+    }
+
     img {
         height:200px;
         opacity: .6;
@@ -299,7 +303,18 @@ body {
 
         &:hover {
             opacity: 1;
-            transform: scale(1.05);
+            transform: scale(1.2);
+        }
+    }
+
+    .searchbar {
+        &-info {
+            font-size: 1.4rem;
+        }
+
+        .btn {
+            font-size: 1.4rem;
+            font-weight: bold;
         }
     }
 
