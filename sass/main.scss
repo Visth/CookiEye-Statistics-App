@@ -317,9 +317,35 @@ body {
             font-weight: bold;
         }
 
+        ul {
+            font-size: 1.4rem;
+
+            a {
+                font-weight: bold;
+            }
+        }
+
         input {
             font-size: 1.6rem;
         }
     }
 
+}
+
+.posts-modal {
+    h3 {
+        font-size: 2.4rem;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 1.6rem;
+    }
+
+    .btn {
+        margin-left: 5px;
+        font-size: 1.6;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
 }

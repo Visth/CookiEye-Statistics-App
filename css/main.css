@@ -252,6 +252,26 @@ body {
   font-size: 1.4rem;
   font-weight: bold;
 }
+.posts .searchbar ul {
+  font-size: 1.4rem;
+}
+.posts .searchbar ul a {
+  font-weight: bold;
+}
 .posts .searchbar input {
   font-size: 1.6rem;
+}
+
+.posts-modal h3 {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+.posts-modal p {
+  font-size: 1.6rem;
+}
+.posts-modal .btn {
+  margin-left: 5px;
+  font-size: 1.6;
+  text-transform: uppercase;
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */
