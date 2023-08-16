@@ -159,6 +159,30 @@ body {
 .panel-right .posts tbody {
   font-size: 1.2rem;
 }
-.panel-right .aside {
-  background-color: red;
+.panel-right .aside .title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.panel-right .aside-heading {
+  margin-top: 30px;
+}
+.panel-right .aside-heading .slogan {
+  font-size: 1.6rem;
+}
+.panel-right .aside-gender {
+  margin-top: 20px;
+}
+.panel-right .aside-gender .genders {
+  font-size: 2.2rem;
+}
+.panel-right .aside-gender .genders i {
+  font-size: 3.6rem;
+  transition: color 0.5s;
+}
+.panel-right .aside-gender:hover .male {
+  color: rgb(9, 194, 255);
+}
+.panel-right .aside-gender:hover .female {
+  color: rgb(84, 196, 4);
 }/*# sourceMappingURL=main.css.map */

@@ -186,7 +186,43 @@ body {
         }
 
         .aside {
-            background-color: red;
+
+            .title {
+                font-size: 2rem;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+            &-heading {
+                margin-top: 30px;
+
+                .slogan {
+                    font-size: 1.6rem;
+                }
+            }
+
+            &-gender {
+                margin-top: 20px;
+
+                .genders {
+                    font-size: 2.2rem;
+
+                    i {
+                        font-size: 3.6rem;
+                        transition: color .5s;
+                    }
+                }
+
+                &:hover {
+                    .male {
+                        color: rgb(9, 194, 255);
+                    }
+
+                    .female {
+                        color: rgb(84, 196, 4);
+                    }
+                }
+            }
         }
     }
 }
