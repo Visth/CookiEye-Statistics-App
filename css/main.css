@@ -188,4 +188,24 @@ body {
 }
 .panel-right .aside .right-stats {
   font-size: 1.4rem;
+}
+.panel-right .aside .right-stats select {
+  padding: 5px;
+  margin-bottom: 20px;
+  width: 80%;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+.panel-right .aside .right-stats select option {
+  background-color: rgb(23, 23, 23);
+}
+.panel-right .aside .right-stats .info-stats .info {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.panel-right .aside .right-stats .info-stats .number {
+  font-size: 1.2rem;
 }/*# sourceMappingURL=main.css.map */
