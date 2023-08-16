@@ -263,14 +263,14 @@ body {
 
     .info-top {
         h1 {
-            font-size: 4rem;
+            font-size: 3rem;
             font-weight: bold;
             text-transform: uppercase;
         }
     }
 
     h3 {
-        font-size: 2.4rem;
+        font-size: 1.8rem;
         font-weight: bold;
         text-transform: uppercase;
     }
@@ -280,14 +280,15 @@ body {
     }
 
     .card-body {
-        font-size: 1.2rem;
+        font-size: 1rem;
         
         .card-title {
-            font-size: 2rem;
+            font-weight: bold;
+            font-size: 1.6rem;
         }
 
         .btn {
-            font-size: 1.6rem;
+            font-size: 1.4rem;
         }
     }
 

@@ -211,12 +211,12 @@ body {
 }
 
 .posts .info-top h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
 }
 .posts h3 {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -224,13 +224,14 @@ body {
   font-size: 1.4rem;
 }
 .posts .card-body {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .posts .card-body .card-title {
-  font-size: 2rem;
+  font-weight: bold;
+  font-size: 1.6rem;
 }
 .posts .card-body .btn {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 .posts img {
   height: 200px;
