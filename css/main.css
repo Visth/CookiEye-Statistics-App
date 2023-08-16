@@ -185,4 +185,7 @@ body {
 }
 .panel-right .aside-gender:hover .female {
   color: rgb(84, 196, 4);
+}
+.panel-right .aside .right-stats {
+  font-size: 1.4rem;
 }/*# sourceMappingURL=main.css.map */
