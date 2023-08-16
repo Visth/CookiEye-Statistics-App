@@ -154,7 +154,7 @@ body {
             }
         }
 
-        .posts {
+        .posts-about {
             margin: 10px 30px;
 
             &-heading {
@@ -255,4 +255,40 @@ body {
             }
         }
     }
+}
+
+// posts.html
+
+.posts {
+
+    .info-top {
+        h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    }
+
+    h3 {
+        font-size: 2.4rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .card-text {
+        font-size: 1.4rem;
+    }
+
+    .card-body {
+        font-size: 1.2rem;
+        
+        .card-title {
+            font-size: 2rem;
+        }
+
+        .btn {
+            font-size: 1.6rem;
+        }
+    }
+
 }

@@ -134,29 +134,29 @@ body {
 .panel-right .stats-item:hover {
   background-color: rgba(255, 255, 255, 0.08);
 }
-.panel-right .posts {
+.panel-right .posts-about {
   margin: 10px 30px;
 }
-.panel-right .posts-heading {
+.panel-right .posts-about-heading {
   display: flex;
   justify-content: start;
   align-items: center;
   color: #fff;
 }
-.panel-right .posts-heading .sort-btn {
+.panel-right .posts-about-heading .sort-btn {
   margin: 10px 0;
   font-size: 1.4rem;
   font-weight: bold;
 }
-.panel-right .posts-heading h3 {
+.panel-right .posts-about-heading h3 {
   font-size: 2.2rem;
   font-weight: bold;
   letter-spacing: 1px;
 }
-.panel-right .posts thead {
+.panel-right .posts-about thead {
   font-size: 1.8rem;
 }
-.panel-right .posts tbody {
+.panel-right .posts-about tbody {
   font-size: 1.2rem;
 }
 .panel-right .aside .title {
@@ -208,4 +208,27 @@ body {
 }
 .panel-right .aside .right-stats .info-stats .number {
   font-size: 1.2rem;
+}
+
+.posts .info-top h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.posts h3 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.posts .card-text {
+  font-size: 1.4rem;
+}
+.posts .card-body {
+  font-size: 1.2rem;
+}
+.posts .card-body .card-title {
+  font-size: 2rem;
+}
+.posts .card-body .btn {
+  font-size: 1.6rem;
 }/*# sourceMappingURL=main.css.map */
