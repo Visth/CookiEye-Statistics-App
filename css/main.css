@@ -251,4 +251,7 @@ body {
 .posts .searchbar .btn {
   font-size: 1.4rem;
   font-weight: bold;
+}
+.posts .searchbar input {
+  font-size: 1.6rem;
 }/*# sourceMappingURL=main.css.map */
