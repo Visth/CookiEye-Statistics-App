@@ -27,6 +27,12 @@ body {
   background-color: var(--activeColor);
 }
 
+.info-top h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .panel {
   position: absolute;
   width: 1600px;
@@ -210,11 +216,6 @@ body {
   font-size: 1.2rem;
 }
 
-.posts .info-top h1 {
-  font-size: 3rem;
-  font-weight: bold;
-  text-transform: uppercase;
-}
 .posts h3 {
   font-size: 1.8rem;
   font-weight: bold;
@@ -274,4 +275,16 @@ body {
   font-size: 1.6;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.users .profile {
+  border-radius: 5px;
+}
+.users .profile .name {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 1.8rem;
+}
+.users .profile button {
+  font-size: 1.4rem;
 }/*# sourceMappingURL=main.css.map */
