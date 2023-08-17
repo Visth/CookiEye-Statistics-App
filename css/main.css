@@ -303,4 +303,18 @@ body {
   font-size: 1.8rem;
   color: #fff;
   background-color: transparent;
+}
+
+.modal-body .card-title {
+  font-size: 2.6rem;
+}
+.modal-body label,
+.modal-body .newsletter,
+.modal-body select,
+.modal-body input {
+  font-size: 1.6rem;
+}
+
+.modal-footer .btn {
+  font-size: 1.8rem;
 }/*# sourceMappingURL=main.css.map */
