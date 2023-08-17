@@ -366,4 +366,26 @@ body {
             font-size: 1.4rem;
         }
     }
+
+    .user-search {
+        label, input, button {
+            font-size: 1.6rem;
+        }
+
+        select {
+            font-size: 1.8rem;
+            background-color: rgb(52, 52, 52);
+        }
+    }
+
+    .switch {
+        margin-top: 50px;
+
+        .page-link {
+            padding: 5px 15px;
+            font-size: 1.8rem;
+            color: #fff;
+            background-color: transparent;
+        }
+    }
 }

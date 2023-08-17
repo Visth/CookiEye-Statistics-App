@@ -287,4 +287,20 @@ body {
 }
 .users .profile button {
   font-size: 1.4rem;
+}
+.users .user-search label, .users .user-search input, .users .user-search button {
+  font-size: 1.6rem;
+}
+.users .user-search select {
+  font-size: 1.8rem;
+  background-color: rgb(52, 52, 52);
+}
+.users .switch {
+  margin-top: 50px;
+}
+.users .switch .page-link {
+  padding: 5px 15px;
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: transparent;
 }/*# sourceMappingURL=main.css.map */
