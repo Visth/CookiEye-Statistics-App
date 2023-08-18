@@ -30,3 +30,10 @@ var options = {
 
   var chart = new ApexCharts(document.querySelector("#chart"), options);
   chart.render();
+
+const actualDate = document.querySelector('.actual-date');
+
+const date = new Date();
+const year = date.getFullYear();
+
+actualDate.textContent = year;
