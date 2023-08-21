@@ -1,3 +1,11 @@
+const actualDate = document.querySelector('.actual-date');
+
+const handleCurrentYear = () => {
+  const year = (new Date).getFullYear();
+  actualDate.innerText = year;
+}
+handleCurrentYear();
+
 var options = {
     series: [{
     name: 'Aktywni użytkownicy',
@@ -30,10 +38,3 @@ var options = {
 
   var chart = new ApexCharts(document.querySelector("#chart"), options);
   chart.render();
-
-const actualDate = document.querySelector('.actual-date');
-
-const date = new Date();
-const year = date.getFullYear();
-
-actualDate.textContent = year;
