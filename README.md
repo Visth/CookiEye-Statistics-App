@@ -1,4 +1,4 @@
-# CookiEye Statistics App
+# CookiEye Statistics App (Only frontend!)
 
 ## Screenshots
 <p align="center">
@@ -17,7 +17,7 @@
 
 ## Description
 
-- (hypothetical) CMS app to control social media website service.
+- (hypothetical) CMS app to control social media website service (Only frontend!).
 - App contains 3 subpages: Main, Posts, Users.
 - Left panel does not change, because it's navigation.
 - App contains Modals that popup when some buttons are clicked.
